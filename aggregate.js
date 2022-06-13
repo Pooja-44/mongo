@@ -1,4 +1,4 @@
-
+// mangoimport --db dbname --collection collectionname --file filepath
 // Atlanta Population
 // 1.use db.zipcodes.find(),filter the results only the city is atlant and state is Ga
 db.zipcodes.find({city:"ATLANTA",state:"GA"})
